@@ -81,7 +81,8 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-source ./aliases.sh
+# initialize loading of our aliases file
+source $HOME/light-dotfiles/aliases.sh
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

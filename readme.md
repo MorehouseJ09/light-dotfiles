@@ -10,3 +10,12 @@ Includes
 -	Basic vimrc
 -	Robust tmux.conf that I use regularly
 -	Basic editrc with vim bindings
+
+Notes / Helpers
+-
+
+-	1.) If you add the vim repo as a submodule, it won't properly clone all of the repos. To pull these down properly ...
+
+	`cd vim && git submodule update --init --recursive`
+
+-	

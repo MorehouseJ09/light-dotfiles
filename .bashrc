@@ -106,4 +106,4 @@ fi
 
 # use vim keybindings
 set -o vi
-
+editor='vim'

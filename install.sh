@@ -1,7 +1,7 @@
 # initialize an install script to install the correct files
 for file in .bashrc .editrc .tmux.conf
 do
-	if [ -f $HOME/$file];
+	if [ -f $HOME/$file ]
 	then
 		mv $HOME/$file $HOME/$file.orig		
 	fi
@@ -11,5 +11,5 @@ done
 
 
 # now run the vim install script
-./vim/install.sh
+$(pwd)/vim/install.sh
 

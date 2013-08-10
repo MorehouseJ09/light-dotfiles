@@ -3,6 +3,9 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+# iniitalize other program shortcuts
+alias v='vim'
+
 # initialize tmux shortcuts etc
 alias switch='tmux switch -t ${1}'
 alias list='tmux list-sessions'

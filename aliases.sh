@@ -3,6 +3,10 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+# initialize back cds ...
+alias ..='cd ../'
+alias ...='cd ../../'
+
 # iniitalize other program shortcuts
 alias v='vim'
 
